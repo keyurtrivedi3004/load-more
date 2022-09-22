@@ -57,5 +57,5 @@ button:hover {
   color: black;
 }
 .card:hover {
-  background-color: gray;
+  box-shadow: 5px 10px #888888;
 }

@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -15,7 +15,7 @@ function App() {
   const getItem = (data) => {
     setItems(data);
     setCount(data.length);
-    // console.log(data.length, count);
+    // console.log(data.length);
   };
 
   useEffect(() => {

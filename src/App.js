@@ -14,7 +14,7 @@ function App() {
 
   const getItem = (data) => {
     setItems(data);
-    setCount(data.length);
+    setCount(6);
     // console.log(data.length);
   };
 
